@@ -23,14 +23,14 @@ This guide will walk you through setting up your InfinityFree hosting account an
 
 1. In the Control Panel, go to "MySQL Databases" under the "Databases" section
 2. Click "Create a new database"
-3. Choose a database name (it will be prefixed with your account username, like `epiz_12345678_db`)
-4. Set a strong password for the database
+3. Choose a database name (something simple like "appfacebook")
+4. Note that InfinityFree automatically uses your vPanel (control panel) password for the database
 5. Click "Create"
 6. Note down your database details:
-   - Database Name: `epiz_12345678_db`
-   - Database Username: `epiz_12345678`
-   - Database Password: `your_password`
-   - Database Host: `sql.infinityfree.com`
+   - Database Name: `if0_USERNAME_appfacebook` (where USERNAME is your InfinityFree account name)
+   - Database Username: `if0_USERNAME` (your InfinityFree account username)
+   - Database Password: Your vPanel/control panel password
+   - Database Host: `sql101.infinityfree.com` (or similar, check your control panel)
 
 ## 5. Import Database Structure
 

