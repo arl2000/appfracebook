@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #1877f2;
+        }
+        button {
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #166fe5;
+        }
+    </style>
+</head>
+<body>
+    <h1>GitHub Pages Test</h1>
+    <p>This is a simple test page to verify that GitHub Pages is working correctly.</p>
+    
+    <h2>Test Links:</h2>
+    <ul>
+        <li><a href="index.html">Facebook Login Page</a></li>
+    </ul>
+    
+    <h2>JavaScript Test:</h2>
+    <button id="testBtn">Test JavaScript</button>
+    
+    <div id="output" style="margin-top: 20px;"></div>
+    
+    <script>
+        document.getElementById('testBtn').addEventListener('click', function() {
+            const output = document.getElementById('output');
+            output.innerHTML = `
+                <p>JavaScript is working!</p>
+                <p>Current date and time: ${new Date().toLocaleString()}</p>
+                <p>User agent: ${navigator.userAgent}</p>
+            `;
+        });
+    </script>
+</body>
+</html> 
